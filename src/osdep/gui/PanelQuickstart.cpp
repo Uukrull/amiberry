@@ -1,5 +1,5 @@
 #include <guisan.hpp>
-#include <SDL/SDL_ttf.h>
+#include <SDL_ttf.h>
 #include <guisan/sdl.hpp>
 #include <guisan/sdl/sdltruetypefont.hpp>
 #include "SelectorEntry.hpp"
@@ -91,7 +91,7 @@ static int numModelConfigs = 0;
 static bool bIgnoreListChange = true;
 
 
-static const char *diskfile_filter[] = { ".adf", ".adz", ".fdi", ".zip", ".dms", ".gz", ".xz", "\0" };
+static const char *diskfile_filter[] = { ".adf", ".adz", ".fdi", ".ipf", ".zip", ".dms", ".gz", ".xz", "\0" };
 static const char *cdfile_filter[] = { ".cue", ".ccd", ".iso", "\0" };
 
 static void AdjustDropDownControls(void);
